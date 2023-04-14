@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  background: lightblue;
+}
+
+.boxP {
+  color: black;
+  text-align: center;
+  padding: 20px;
+  background-color: khaki
+}
+
+
+.image {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.images::after {
+  content: "";
+  display: table;
+  clear: both;
+}
